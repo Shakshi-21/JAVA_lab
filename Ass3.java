@@ -1,5 +1,4 @@
 //Write a program to find out the greatest number among 3 numbers.
-
 class Greatest
 {
 	int a, b, c;
