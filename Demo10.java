@@ -22,13 +22,17 @@ class Demo10
 {
 	public static void main(String args[])
 	{
+		System.out.println("------------------------");
 		Box obj1 = new Box();
 		Box obj2 = new Box();
 		obj1.setData(10, 20, 30);
-		obj2.setData(20, 30, 40);
 		obj1.display();
 		System.out.println("Volume of the box1: "+obj1.volume());
+		System.out.println("------------------------");
+		obj2.setData(20, 30, 40);
+		obj2.display();
 		System.out.println("Volume of the box2: "+obj2.volume());
+		System.out.println("------------------------");
 		if(obj1.volume()>obj2.volume())
 			System.out.println("Size of box1 is bigger");
 		else if(obj2.volume()>obj1.volume())
