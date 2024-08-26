@@ -1,3 +1,4 @@
+//Rewrite the Demo10 program using a Constructor.
 class Box
 {
 	double length, breadth, height;
