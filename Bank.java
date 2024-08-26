@@ -1,6 +1,4 @@
-//Create a class called Bank_Account with following data member and member function
-a) Account_Holder_Name, Account_Number, Account_Type (S for savings, C for current), balance
-b) withdraw_money () and deposit_money with proper prototype.
+//Create a class called Bank_Account with following data member and member function a) Account_Holder_Name, Account_Number, Account_Type (S for savings, C for current), balance b) withdraw_money () and deposit_money with proper prototype.
 
 class BankAccount
 {
